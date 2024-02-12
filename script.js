@@ -12,6 +12,3 @@ function moveNoButton() {
     button.style.left = newX + 'px';
     button.style.top = newY + 'px';
 }
-
-// Add event listener to move the "No" button when clicked
-document.getElementById('noButton').addEventListener('click', moveNoButton);
