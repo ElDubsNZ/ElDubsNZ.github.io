@@ -1,16 +1,6 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0;
-}
-
 .container {
     text-align: center;
+    position: relative; /* Ensure container's position is relative */
 }
 
 .gif-container {
@@ -18,7 +8,10 @@ body, html {
 }
 
 .buttons {
-    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Center the buttons horizontally */
+    bottom: 20px; /* Adjust the bottom position as needed */
 }
 
 button {
