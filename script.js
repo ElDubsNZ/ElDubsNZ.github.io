@@ -1,8 +1,7 @@
 function respondYes() {
     document.getElementById('yesButton').style.display = 'none';
     document.getElementById('noButton').style.display = 'none';
-    document.getElementById('gif').src = 'assets/answer.gif'; // Change to the path of your alternate GIF
-    document.querySelector('h1').textContent = 'Yay! Glad you didn\'t say no. ;)';
+    document.getElementById('gif').src = 'assets/answer.gif';
 }
 
 function moveNoButton() {
@@ -13,3 +12,6 @@ function moveNoButton() {
     button.style.left = newX + 'px';
     button.style.top = newY + 'px';
 }
+
+// Add event listener to move the "No" button when clicked
+document.getElementById('noButton').addEventListener('click', moveNoButton);
