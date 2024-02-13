@@ -29,6 +29,7 @@ button {
     border-radius: 5px;
     margin: 0 10px;
     position: absolute;
+    transform: translateX(-50%);
 }
 
 .green-button {
