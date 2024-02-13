@@ -2,7 +2,7 @@ function respondYes() {
     document.getElementById('yesButton').style.display = 'none';
     document.getElementById('noButton').style.display = 'none';
     document.getElementById('gif').src = 'assets/answer.gif';
-    document.querySelector('h1').textContent = 'Yay! I love you and I\'ll see you tomorrow! 😘';
+    document.querySelector('h1').textContent = 'Yay! Happy Valentines Day to my favourite girl! 😘';
 }
 
 function moveNoButton() {
